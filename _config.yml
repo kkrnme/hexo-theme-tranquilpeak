@@ -63,6 +63,10 @@ sidebar:
       title: global.twitter
       url: https://twitter.com/MominisJ
       icon: fab fa-twitter
+    mastodon:
+      title: "Mastodon"
+      url: https://best-friends.chat/@mn
+      icon: fab fa-mastodon
   rss:
     rss:
       title: global.rss
