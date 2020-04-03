@@ -34,15 +34,15 @@ sidebar:
       icon: fa fa-home
     categories:
       title: global.categories
-      url: /all-categories
-      icon: fa fa-bookmark
+      url: /categories
+      icon: fa fa-list-ul
     tags:
       title: global.tags
-      url: /all-tags
+      url: /tags
       icon: fa fa-tags
     archives:
       title: global.archives
-      url: /all-archives
+      url: /archives
       icon: fa fa-archive
     search:
       title: global.search
@@ -57,32 +57,12 @@ sidebar:
   author_links:
     github:
       title: global.github
-      url: https://github.com/
+      url: https://github.com/kkrnme
       icon: fab fa-github
-    stack_overflow:
-      title: global.stack_overflow
-      url: http://stackoverflow.com/users
-      icon: fab fa-stack-overflow
     twitter:
       title: global.twitter
-      url: https://twitter.com/
+      url: https://twitter.com/MominisJ
       icon: fab fa-twitter
-    facebook:
-      title: global.facebook
-      url: https://facebook.com/
-      icon: fab fa-facebook
-    google_plus:
-      title: global.google_plus
-      url: https://plus.google.com/
-      icon: fab fa-google-plus
-    linked_in:
-      title: global.linkedin
-      url: https://www.linkedin.com/profile/
-      icon: fab fa-linkedin
-    mail:
-      title: global.mail
-      url: mailto
-      icon: fa fa-envelope
   rss:
     rss:
       title: global.rss
@@ -145,10 +125,10 @@ author:
 # large sidebar is swiped on all lower screens
 # 5: Display header bar on all screens and large sidebar is swiped on large screen
 # 6: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 1
+sidebar_behavior: 2
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
-clear_reading: true
+clear_reading: false
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
 thumbnail_image: true
 # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
