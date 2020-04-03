@@ -50,10 +50,14 @@ sidebar:
       icon: fa fa-search
       # `open-algolia-search` classes are used to open algolia search modal
       class: open-algolia-search
-    about:
+    profile:
       title: global.about
       url: "#about"
-      icon: fa fa-question
+      icon: fa fa-portrait
+    about:
+      title: "About"
+      url: "/about"
+      icon: fa fa-info
   author_links:
     github:
       title: global.github
