@@ -71,11 +71,11 @@ sidebar:
       title: "Mastodon"
       url: https://best-friends.chat/@mn
       icon: fab fa-mastodon
-  rss:
-    rss:
-      title: global.rss
-      url: /atom.xml
-      icon: fa fa-rss
+  #rss:
+  #  rss:
+  #    title: global.rss
+  #    url: /atom.xml
+  #    icon: fa fa-rss
 
 # --------------------
 # Header configuration
