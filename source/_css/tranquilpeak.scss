@@ -1,67 +1,67 @@
-@import
-    'utils/fonts',
-    'utils/variables';
+@import "utils/fonts", "utils/variables";
 
-@import
-    'utils/mixins/bottom-bar',
-    'utils/mixins/button',
-    'utils/mixins/category',
-    'utils/mixins/form',
-    'utils/mixins/header',
-    'utils/mixins/main',
-    'utils/mixins/opacity',
-    'utils/mixins/post-header-cover',
-    'utils/mixins/prefix',
-    'utils/mixins/share-options-bar',
-    'utils/mixins/sidebar',
-    'utils/mixins/tag';
+@import "utils/mixins/bottom-bar", "utils/mixins/button",
+  "utils/mixins/category", "utils/mixins/form", "utils/mixins/header",
+  "utils/mixins/main", "utils/mixins/opacity", "utils/mixins/post-header-cover",
+  "utils/mixins/prefix", "utils/mixins/share-options-bar",
+  "utils/mixins/sidebar", "utils/mixins/tag";
 
-@import
-    'base/base';
+@import "base/base";
 
-@import 'layouts/about',
-'layouts/blog',
-'layouts/bottom-bar',
-'layouts/cover',
-'layouts/footer',
-'layouts/header',
-'layouts/main',
-'layouts/sidebar';
+@import "layouts/about", "layouts/blog", "layouts/bottom-bar", "layouts/cover",
+  "layouts/footer", "layouts/header", "layouts/main", "layouts/sidebar";
 
-@import
-    'components/alert',
-    'components/archive',
-    'components/box',
-    'components/button',
-    'components/caption',
-    'components/code',
-    'components/fancybox',
-    'components/figure',
-    'components/form',
-    'components/hide',
-    'components/highlight-text',
-    'components/icon',
-    'components/image-gallery',
-    'components/link',
-    'components/main-content',
-    'components/markdown',
-    'components/media',
-    'components/modal',
-    'components/pagination',
-    'components/post',
-    'components/post-actions',
-    'components/pullquote',
-    'components/post-header-cover',
-    'components/postShorten',
-    'components/share-options-bar',
-    'components/tag',
-    'components/text',
-    'components/tooltip',
-    'components/video';
+@import "components/alert", "components/archive", "components/box",
+  "components/button", "components/caption", "components/code",
+  "components/fancybox", "components/figure", "components/form",
+  "components/hide", "components/highlight-text", "components/icon",
+  "components/image-gallery", "components/link", "components/main-content",
+  "components/markdown", "components/media", "components/modal",
+  "components/pagination", "components/post", "components/post-actions",
+  "components/pullquote", "components/post-header-cover",
+  "components/postShorten", "components/share-options-bar", "components/tag",
+  "components/text", "components/tooltip", "components/video";
 
-@import
-    'pages/search';
+@import "pages/search";
 
-@import
-    'themes/hljs-tranquilpeak',
-    'themes/hljs-custom';
+@import "themes/hljs-tranquilpeak", "themes/hljs-custom";
+
+/* 要素 | http://localhost:4000/ */
+
+.descriptions {
+  padding: 6px;
+}
+
+/* 要素 | http://localhost:4000/ */
+
+.og-image > img:nth-child(1) {
+  /* object-fit: cover; */
+  /* object-position: center; */
+  object-fit: contain;
+  object-position: 50% 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  background-color: #333;
+}
+
+/* 要素 | http://localhost:4000/ */
+
+.og-title {
+  font-weight: 600;
+}
+
+/* 要素 | http://localhost:4000/ */
+
+.link-area {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: flex;
+  height: 150px;
+}
+
+/* 要素 | http://localhost:4000/ */
+
+.og-image {
+  max-width: 150px;
+}
