@@ -42,7 +42,7 @@ sidebar:
       icon: fa fa-tags
     archives:
       title: global.archives
-      url: /archives
+      url: /all-archives
       icon: fa fa-archive
     #search:
     #  title: global.search
