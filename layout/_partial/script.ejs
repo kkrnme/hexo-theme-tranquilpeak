@@ -58,9 +58,13 @@
 <% if (config.algolia && config.algolia.appId && config.algolia.apiKey && config.algolia.indexName) { %>
     <%- js('assets/js/moment-with-locales.js') %>
     <%- js('assets/js/algoliasearch.js') %>
-    <%- js('instantclick.min.js') %> 
     <script>
       var algoliaClient = algoliasearch('<%= config.algolia.appId %>', '<%= config.algolia.apiKey %>');
       var algoliaIndex = algoliaClient.initIndex('<%= config.algolia.indexName %>');
+      
+
     </script>
 <% } %>
+
+<%- js('instantclick.min.js') %>
+<script data-no-instant>InstantClick.init();</script>
